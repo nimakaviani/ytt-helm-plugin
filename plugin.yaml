@@ -1,0 +1,8 @@
+name: "ytt"
+version: "0.11.0"
+usage: "Integrate ytt templating with Helm"
+description: |-
+  This plugin provides ytt templating to Helm.
+ignoreFlags: false
+useTunnel: false
+command: "$HELM_PLUGIN_DIR/ytt.sh"
